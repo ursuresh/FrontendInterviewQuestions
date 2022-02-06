@@ -36,3 +36,22 @@ console.log("inner func: self.foo = " + self.foo); }()); }
 myObject.func();
 
 
+
+
+
+function checkPalandrom(num){
+  var splitenumber = num.split();
+  var reverseNumbers = [];
+  for(var i=o;i<splitenumber.length;i++){
+      reverseNumbers.push(splitenumber[i])
+  }
+
+
+
+}
+
+
+
+var list = readHugeList();
+ var nextListItem = function() { var item = list.pop(); if (item) { // process the list item... nextListItem(); } };
+
