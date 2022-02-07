@@ -54,4 +54,21 @@ function checkPalandrom(num){
 
 var list = readHugeList();
  var nextListItem = function() { var item = list.pop(); if (item) { // process the list item... nextListItem(); } };
+ 
+ 
+ 
+ var a = [1,2,3,6,8,9];
+var b = [3,6]
+var i = 0;
+
+while(i>=0 && i<a.length-1){
+
+  var findValue = [a[i],a[i+1]];
+  console.log("finded values:",findValue);
+  if(JSON.stringify(findValue) === JSON.stringify(b)){
+     console.log("arrays are matched"+" "+ "finded value:",findValue + "given value:",b);
+     i=a.length-1;
+  }else{
+    i++
+  }
 
