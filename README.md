@@ -72,3 +72,38 @@ while(i>=0 && i<a.length-1){
     i++
   }
 
+
+
+var obj1 = { valueOfThis: function(){ return this; } }
+ var obj2 = { valueOfThis: ()=>{ return this; } } 
+ console.log(obj1.valueOfThis()); 
+ console.log(obj2.valueOfThis()) 
+
+
+
+ (function timer() { 
+     for (var i=0; i<=5; i++) { 
+         setTimeout(function clog() {console.log(i)}, i*1000); 
+        } 
+    })();
+
+
+
+let opration = BheaverSubject<>()
+
+opration.then()
+         .then(value)
+
+
+    .mainDiv{
+        display:flex;
+        flex-flow:center;
+    }
+    
+    
+    
+    #angular state management
+    #observables rxjs
+    #cloud based questions
+    #data bases
+    
