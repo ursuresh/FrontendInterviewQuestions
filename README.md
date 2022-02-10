@@ -105,5 +105,8 @@ opration.then()
     #angular state management
     #observables rxjs
     #cloud based questions
-    #data bases
+    #data bases  - relation database
+    api call with observables
+    
+    
     
